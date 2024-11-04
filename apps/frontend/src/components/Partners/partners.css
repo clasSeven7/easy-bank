@@ -1,0 +1,13 @@
+/* =============================== Partners ================================= */
+.partners .box-container {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 16rem);
+  gap: 2.5rem;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.partners .box-container .box {
+  width: 100%;
+}

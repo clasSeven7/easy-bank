@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --main-color: #1b756b;
+  --black: #334;
+  --white: #fff;
+  --light-bg: #d7fce7;
+  --light-color: #666;
+  --light-white: rgba(255, 255, 255, 0.3);
+  --bg-color: #eee;
+
+  --box-shadow: 0 0.5 1rem rgba(0, 0, 0, 0.1);
+  --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 8rem;
+}
+
+/* ================================ About =================================== */
+.about .heading {
+  text-align: left;
+}
+
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.about .row .image {
+  flex: 1 1 45rem;
+  position: relative;
+  z-index: 0;
+}
+
+.about .row .image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  border-radius: 0.5rem;
+  background: linear-gradient(125deg, var(--light-bg), var(--main-color));
+  z-index: -1;
+  transition: 0.2s linear;
+}
+
+.about .row .image:hover::before {
+  transform: translateX(20%) rotate(90deg);
+  width: 60%;
+}
+
+.about .row .image img {
+  width: 100%;
+}
+
+.about .row .image:hover img {
+  transform: scale(0.8);
+}
+
+.about .row .content {
+  flex: 1 1 45rem;
+}
+
+.about .row .content h3 {
+  font-size: 4rem;
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+.about .row .content h3 span {
+  color: var(--main-color);
+}
+
+.about .row .content p {
+  line-height: 1.8;
+  font-size: 1.8rem;
+  padding: 0.5rem 0;
+  color: var(--light-color);
+}
+
+.about .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.about .box-container .box {
+  flex: 1 1 20rem;
+}
+
+.about .box-container .box .info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about .box-container .box .info img {
+  height: 5rem;
+}
+
+.about .box-container .box .info h3 {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.about .box-container .box p {
+  line-height: 1.8;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}

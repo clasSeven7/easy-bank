@@ -1,0 +1,55 @@
+/* ========================= Newsletter ===================================== */
+.newsletter {
+  padding: 2rem;
+}
+
+.newsletter section {
+  background: url('../../assets/newsletter-bg.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem;
+}
+
+.newsletter form {
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter form h3 {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.newsletter form p {
+  line-height: 1.8;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  color: var(--bg-color);
+}
+
+.newsletter form .flex {
+  margin-top: 1rem;
+  display: flex;
+  border-radius: 5rem;
+  background-color: var(--bg-color);
+  padding: 1rem;
+}
+
+.newsletter form .flex input[type='text'] {
+  width: 100%;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: var(--black);
+  background-color: var(--bg-color);
+  text-transform: none;
+}
+
+.newsletter form .flex input[type='submit'] {
+  border-radius: 5rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--black);
+  font-size: 1.6rem;
+}

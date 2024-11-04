@@ -1,0 +1,54 @@
+/* =============================== Download ================================= */
+.download .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+}
+
+.download .row .box-container {
+  flex: 1 1 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.download .row .box-container .box {
+  flex: 1 1 19rem;
+  padding: 2rem 2.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--bg-color);
+}
+
+.download .row .box-container .box .icon {
+  font-size: 3.5rem;
+  color: var(--main-color);
+  margin-bottom: 2rem;
+}
+
+.download .row .box-container .box h3 {
+  font-size: 2rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+}
+
+.download .row .content {
+  flex: 1 1 40rem;
+}
+.download .row .content h3 {
+  font-size: 3.5rem;
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+.download .row .content h3 span {
+  color: var(--main-color);
+}
+
+.download .row .content p {
+  line-height: 1.8;
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+  color: var(--light-color);
+}

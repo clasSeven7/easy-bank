@@ -1,0 +1,58 @@
+/* ================================ Options ================================= */
+.options {
+  background: var(--bg-color);
+}
+
+.options .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.options .box-container .box {
+  border-radius: 0.5rem;
+  background-color: var(--white);
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.options .box-container .box img {
+  /* height: 20rem; */
+  width: 30rem;
+  border-radius: 0.5rem;
+  transform: translateY(-5rem);
+  object-fit: cover;
+}
+
+.options .box-container .box:hover img {
+  transform: translateY(-7rem);
+}
+
+.options .box-container .box h3 {
+  margin-top: -4rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  color: var(--black);
+}
+
+.options .box-container .box p {
+  padding: 0.2rem 0;
+  line-height: 1.8;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+.options .box-container .box .info {
+  border-top: var(--border);
+  margin-top: 1.5rem;
+  padding: 1rem 0;
+}
+
+.options .box-container .box .info span {
+  color: var(--black);
+}

@@ -1,0 +1,55 @@
+/* =============================== Blogs ==================================== */
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.blogs .box-container .box img {
+  width: 100%;
+  height: 20rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.blogs .box-container .box .info {
+  margin: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-color);
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+}
+
+.blogs .box-container .box .info a {
+  font-size: 1.6rem;
+}
+
+.blogs .box-container .box .info a i {
+  color: var(--main-color);
+  margin-right: 0.5rem;
+}
+
+.blogs .box-container .box .info a span {
+  color: var(--light-color);
+}
+
+.blogs .box-container .box .info a:hover span {
+  text-decoration: underline;
+}
+
+.blogs .box-container .box h3 {
+  font-size: 2rem;
+  color: var(--black);
+  margin: 0.5rem 0;
+}
+
+.blogs .box-container .box p {
+  line-height: 1.8;
+  font-size: 1.6rem;
+  color: var(--light-color);
+  padding: 0.5rem 0;
+}

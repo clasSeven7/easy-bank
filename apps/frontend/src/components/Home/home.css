@@ -1,0 +1,52 @@
+/* ================================= Home =================================== */
+.home {
+  background: linear-gradient(180deg, var(--light-bg), var(--bg-color));
+  padding-top: 10rem;
+}
+
+.home .flex {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home .flex .image {
+  flex: 1 1 40rem;
+}
+
+.home .flex .image img {
+  width: 100%;
+  animation: float 3s ease-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2rem);
+  }
+}
+
+.home .flex .content {
+  flex: 1 1 40rem;
+}
+
+.home .flex .content h3 {
+  font-size: 4rem;
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+.home .flex .content h3 span {
+  color: var(--main-color);
+}
+
+.home .flex .content p {
+  line-height: 1.8;
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+  color: var(--light-color);
+}

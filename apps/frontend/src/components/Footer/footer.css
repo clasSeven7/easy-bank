@@ -1,0 +1,67 @@
+/* ================================ Footer ================================== */
+.footer {
+  background-color: var(--bg-color);
+}
+
+.footer .flex {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  border-bottom: var(--border);
+  padding-bottom: 2.5rem;
+  justify-content: space-between;
+}
+
+.footer .flex .logo {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.footer .flex .logo i {
+  margin-right: 0.5rem;
+  color: var(--main-color);
+}
+
+.footer .flex .links a {
+  margin: 0 1rem;
+  color: var(--light-color);
+  font-size: 1.6rem;
+}
+
+.footer .flex .links a:hover {
+  color: var(--black);
+}
+
+.footer .flex .extra-link {
+  font-size: 1.8rem;
+  color: var(--light-color);
+}
+
+.footer .flex .extra-link:hover {
+  color: var(--black);
+}
+
+.footer .credit {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.footer .credit p {
+  font-size: 1.8rem;
+  color: var(--light-color);
+}
+
+.footer .credit p span {
+  color: var(--main-color);
+}
+
+.footer .credit .share a {
+  font-size: 2rem;
+  color: var(--black);
+  margin-left: 1.5rem;
+}
+
+.footer .credit .share a:hover {
+  color: var(--main-color);
+}

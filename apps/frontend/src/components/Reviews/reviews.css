@@ -1,0 +1,116 @@
+/* =============================== Review =================================== */
+.reviews {
+  background: url('../../assets/review-bg.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.reviews .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  /* padding: 2rem 10rem; */
+}
+
+.reviews .row .content {
+  flex: 1 1 40rem;
+}
+.reviews .row .content h3 {
+  font-size: 2rem;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.reviews .row .content p {
+  line-height: 1.8;
+  font-size: 1.8rem;
+  color: var(--bg-color);
+}
+
+.reviews .row .slider-container {
+  flex: 1 1 40rem;
+}
+
+.reviews .row .slider-container .slide {
+  padding: 2rem 2.5rem;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  user-select: none;
+  display: none;
+}
+
+.reviews .row .slider-container .slide.active {
+  display: inline-block;
+  animation: slide 0.4s ease-out backwards;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    scale: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.reviews .row .slider-container .slide p {
+  line-height: 1.8;
+  font-size: 1.8rem;
+  color: var(--light-color);
+  animation: slide 0.4s 0.2s ease-out backwards;
+}
+
+.reviews .row .slider-container .slide .user {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  border-top: var(--border);
+  animation: slide 0.4s 0.4s ease-out backwards;
+}
+
+.reviews .row .slider-container .slide .user img {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+}
+
+.reviews .row .slider-container .slide h3 {
+  font-size: 1.8rem;
+  color: var(--black);
+  margin-bottom: 0.2rem;
+}
+
+.reviews .row .slider-container .slide .stars i {
+  color: var(--main-color);
+  font-size: 1.6rem;
+}
+
+.reviews .row .slider-container .slide .fa-quote-right {
+  margin-left: auto;
+  font-size: 5rem;
+  color: var(--light-color);
+}
+
+.reviews .row .slider-container .controls {
+  margin-top: 2.5rem;
+  text-align: center;
+  user-select: none;
+}
+
+.reviews .row .slider-container .controls div {
+  font-size: 2.5rem;
+  color: var(--white);
+  margin: 0 1.5rem;
+  cursor: pointer;
+}
+
+.reviews .row .slider-container .controls div:hover {
+  color: var(--light-color);
+}
