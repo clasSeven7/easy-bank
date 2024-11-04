@@ -1,0 +1,149 @@
+2024-11-04 15:36:44,754 - INFO - Watching for file changes with StatReloader
+2024-11-04 15:38:03,477 - INFO - /home/saulojustiniano/www/classeven/easy-bank/apps/backend/app/api/router.py changed, reloading.
+2024-11-04 15:38:03,703 - INFO - Watching for file changes with StatReloader
+2024-11-04 15:38:44,867 - WARNING - Not Found: /
+2024-11-04 15:38:51,372 - ERROR - Internal Server Error: /api/blog
+Traceback (most recent call last):
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/rest_framework/renderers.py", line 726, in render
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2024-11-04 15:38:55,263 - WARNING - Not Found: /api/blog/
+2024-11-04 15:39:02,235 - ERROR - Internal Server Error: /api/blogs/
+Traceback (most recent call last):
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/rest_framework/renderers.py", line 726, in render
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2024-11-04 15:39:53,516 - WARNING - Not Found: /api/blog/
+2024-11-04 15:40:46,981 - INFO - Watching for file changes with StatReloader
+2024-11-04 15:40:49,057 - WARNING - Not Found: /
+2024-11-04 15:41:33,457 - INFO - Watching for file changes with StatReloader
+2024-11-04 15:42:07,834 - WARNING - Not Found: /api/
+2024-11-04 15:42:14,855 - ERROR - Internal Server Error: /api/blog
+Traceback (most recent call last):
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/rest_framework/renderers.py", line 726, in render
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2024-11-04 15:42:17,578 - WARNING - Not Found: /api/blog/
+2024-11-04 15:42:22,606 - ERROR - Internal Server Error: /api/blogs/
+Traceback (most recent call last):
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/rest_framework/renderers.py", line 726, in render
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2024-11-04 15:42:24,787 - ERROR - Internal Server Error: /api/blogs/
+Traceback (most recent call last):
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/rest_framework/renderers.py", line 726, in render
+    template = loader.get_template(self.template)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+2024-11-04 15:44:16,021 - INFO - /home/saulojustiniano/www/classeven/easy-bank/apps/backend/backend/settings.py changed, reloading.
+2024-11-04 15:44:16,275 - INFO - Watching for file changes with StatReloader
+2024-11-04 15:44:21,335 - WARNING - Not Found: /api/blogs/
+2024-11-04 15:44:32,404 - WARNING - Not Found: /api/blogs/
+2024-11-04 17:37:05,743 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:37:05,746 - INFO - Middleware: Interceptando resposta
+2024-11-04 17:37:05,746 - WARNING - Not Found: /api/post/
+2024-11-04 17:37:29,599 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:37:29,601 - INFO - Middleware: Interceptando resposta
+2024-11-04 17:37:29,601 - WARNING - Not Found: /api/post/
+2024-11-04 17:39:25,078 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:39:25,080 - INFO - Middleware: Interceptando resposta
+2024-11-04 17:39:25,080 - WARNING - Not Found: /api/post/
+2024-11-04 17:39:43,258 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:39:43,260 - INFO - Middleware: Interceptando resposta
+2024-11-04 17:39:43,260 - WARNING - Not Found: /api/post/
+2024-11-04 17:40:22,336 - INFO - Watching for file changes with StatReloader
+2024-11-04 17:40:27,714 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:40:27,953 - INFO - Middleware: Interceptando resposta
+2024-11-04 17:40:37,506 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:40:37,521 - INFO - Middleware: Interceptando resposta
+2024-11-04 17:40:37,521 - WARNING - Not Found: /api/blogs/
+2024-11-04 17:40:43,909 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:40:43,916 - INFO - Middleware: Interceptando resposta
+2024-11-04 17:40:43,916 - WARNING - Not Found: /api/blog/
+2024-11-04 17:42:24,889 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:42:24,894 - INFO - Middleware: Interceptando resposta
+2024-11-04 17:42:24,894 - WARNING - Not Found: /api/blog/
+2024-11-04 17:44:21,292 - INFO - /home/saulojustiniano/www/classeven/easy-bank/apps/backend/backend/urls.py changed, reloading.
+2024-11-04 17:44:21,548 - INFO - Watching for file changes with StatReloader
+2024-11-04 17:44:41,679 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:44:41,696 - INFO - Middleware: Interceptando resposta
+2024-11-04 17:44:41,696 - WARNING - Bad Request: /api/blog/
+2024-11-04 17:44:55,009 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:44:55,020 - INFO - Middleware: Interceptando resposta
+2024-11-04 17:44:55,020 - WARNING - Bad Request: /api/blog/
+2024-11-04 17:45:24,786 - INFO - Middleware: Interceptando requisição
+2024-11-04 17:45:24,805 - INFO - Middleware: Interceptando resposta
