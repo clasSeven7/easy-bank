@@ -167,3 +167,9 @@ django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
 2024-11-05 01:03:10,927 - INFO - Middleware: Interceptando resposta
 2024-11-05 01:03:17,971 - INFO - Middleware: Interceptando requisição
 2024-11-05 01:03:18,198 - INFO - Middleware: Interceptando resposta
+2024-11-05 01:22:35,007 - INFO - Middleware: Interceptando requisição
+2024-11-05 01:22:35,241 - INFO - Middleware: Interceptando resposta
+2024-11-05 01:26:51,915 - INFO - Middleware: Interceptando requisição
+2024-11-05 01:26:52,144 - INFO - Middleware: Interceptando resposta
+2024-11-05 01:33:05,885 - INFO - Middleware: Interceptando requisição
+2024-11-05 01:33:06,110 - INFO - Middleware: Interceptando resposta

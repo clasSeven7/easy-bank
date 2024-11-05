@@ -49,7 +49,7 @@ export function Login({ setAuthenticated }: LoginProps): JSX.Element {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit" className="login-button">
+          <button type="submit" className="login-button btn">
             Entrar
           </button>
         </form>
