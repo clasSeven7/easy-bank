@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { fetchComments } from '../../services/commentService';
-import './reviews.css';
+import './Reviews.css';
 
 interface Comment {
   id: number;

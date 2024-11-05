@@ -14,8 +14,8 @@ interface Blog {
 
 export function Blogs(): JSX.Element {
   const [blogs, setBlogs] = useState<Blog[]>([]);
-  const [error, setError] = useState<string | null>(null); // Estado para gerenciar erros
-  const navigate = useNavigate(); // Hook para navegação
+  const [error, setError] = useState<string | null>(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const loadBlogs = async () => {
