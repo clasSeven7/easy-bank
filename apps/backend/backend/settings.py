@@ -8,6 +8,8 @@ SECRET_KEY = 'django-insecure-mr0+%@h3)c2=$e%2jm6@eo1y+#_!zh0=q3-mx2m7o@#kom5tb@
 DEBUG = True
 
 CORS_ORIGIN_ALLOW_ALL = True
+CORS_ALLOW_ALL_ORIGINS = True
+
 ALLOWED_HOSTS = ['*']
 
 APPS = [
@@ -21,6 +23,7 @@ REST = [
 ]
 
 INSTALLED_APPS = [
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

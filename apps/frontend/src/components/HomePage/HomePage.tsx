@@ -18,7 +18,6 @@ export function HomePage(): JSX.Element {
   const navbarRef = React.useRef<HTMLElement>(null);
   const menuBtnRef = React.useRef<HTMLDivElement>(null);
   const slidesRef = React.useRef<NodeListOf<HTMLElement> | null>(null);
-  const indexRef = React.useRef<number>(0);
 
   useEffect(() => {
     const header = headerRef.current;
@@ -54,26 +53,6 @@ export function HomePage(): JSX.Element {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
-  // Função para a próxima slide
-  const next = () => {
-    if (slidesRef.current) {
-      slidesRef.current[indexRef.current].classList.remove('active');
-      indexRef.current = (indexRef.current + 1) % slidesRef.current.length;
-      slidesRef.current[indexRef.current].classList.add('active');
-    }
-  };
-
-  // Função para a slide anterior
-  const prev = () => {
-    if (slidesRef.current) {
-      slidesRef.current[indexRef.current].classList.remove('active');
-      indexRef.current =
-        (indexRef.current - 1 + slidesRef.current.length) %
-        slidesRef.current.length;
-      slidesRef.current[indexRef.current].classList.add('active');
-    }
-  };
 
   // Carregar os slides após a montagem do componente
   useEffect(() => {

@@ -1,20 +1,20 @@
-/* src/styles/EditPost.css */
-.edit-post-container {
+/* src/styles/Editblog.css */
+.edit-blog-container {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
 
-.post-image {
+.blog-image {
   max-width: 500px;
   margin-bottom: 20px;
 }
 
-.post-image img {
+.blog-image img {
   max-width: 100%;
 }
 
-input[type="text"],
+input[type='text'],
 textarea {
   width: 100%;
   padding: 10px;
@@ -24,7 +24,7 @@ textarea {
   font-size: 16px;
 }
 
-input[type="file"] {
+input[type='file'] {
   margin-bottom: 20px;
 }
 

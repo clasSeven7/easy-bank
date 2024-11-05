@@ -1,22 +1,22 @@
-/* src/components/PostList.css */
-.post-list-container {
+/* src/components/blogList.css */
+.blog-list-container {
   max-width: 700px;
   margin: 0 auto;
   padding: 20px;
 }
 
-.post-list-container h1 {
+.blog-list-container h1 {
   text-align: center;
   margin-bottom: 20px;
 }
 
 /* Remover o ponto (bullet) da lista */
-.post-list-container ul {
+.blog-list-container ul {
   list-style-type: none; /* Adiciona esta linha */
   padding: 0;
 }
 
-.post-item {
+.blog-item {
   margin-bottom: 10px;
   padding: 10px;
   border: 1px solid #ccc;
@@ -24,7 +24,7 @@
   background-color: #f9f9f9;
 }
 
-.post-link-name {
+.blog-link-name {
   color: #007bff;
   font-weight: 700;
   text-decoration: none;
@@ -32,7 +32,7 @@
   font-size: 18px;
 }
 
-.post-link {
+.blog-link {
   background-color: #eb9e34;
   color: #fff;
   border: none;
@@ -42,7 +42,7 @@
   margin-right: 5px;
 }
 
-.post-link:hover {
+.blog-link:hover {
   color: #fff;
   background-color: #c27f21;
 }
@@ -64,7 +64,7 @@
   float: right;
 }
 
-.post-list-container {
+.blog-list-container {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;

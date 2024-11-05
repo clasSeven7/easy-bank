@@ -5,6 +5,8 @@ import {
   BrowserRouter as Router,
   Routes,
 } from 'react-router-dom';
+import { BlogEdit } from './components/Blogs/BlogEdit/BlogEdit';
+import { BlogList } from './components/Blogs/BlogList/BlogList';
 import { HomePage } from './components/HomePage/HomePage';
 import { Login } from './components/Login/Login';
 
@@ -36,6 +38,18 @@ export function AppRouter(): JSX.Element {
             ) : (
               <Login setAuthenticated={setAuthenticated} />
             )
+          }
+        />
+        <Route
+          path="/blogs"
+          element={
+            authenticated ? <BlogList /> : <Navigate to="/login" replace />
+          }
+        />
+        <Route
+          path="/blogs/create"
+          element={
+            authenticated ? <BlogEdit /> : <Navigate to="/login" replace />
           }
         />
       </Routes>

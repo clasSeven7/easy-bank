@@ -1,55 +1,69 @@
-import { useState, useEffect } from 'react'
-import api from '../api'
-import { Link } from 'react-router-dom'
-import '../styles/PostList.css'
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import api from '../../../api';
+import './BlogList.css';
 
-interface Post {
-  id: number
-  title: string
+interface Blog {
+  id: number;
+  image_blog: string;
+  data: Date;
+  user: string;
+  title: string;
+  content: string;
 }
 
-function PostList(): JSX.Element {
-  const [posts, setPosts] = useState<Post[]>([])
+export function BlogList(): JSX.Element {
+  const [blogs, setBlogs] = useState<Blog[]>([]);
 
-  const handleDelete = async (postId: number) => {
+  const handleDelete = async (blogId: number) => {
     try {
-      await api.delete(`/posts/${postId}/`)
-      const updatedPosts = posts.filter(post => post.id !== postId)
-      setPosts(updatedPosts)
+      await api.delete(`/blogs/${blogId}/`);
+      const updatedBlogs = blogs.filter((blog) => blog.id !== blogId);
+      setBlogs(updatedBlogs);
     } catch (error) {
-      console.error('Erro ao deletar post:', error)
+      console.error('Erro ao deletar blog:', error);
     }
-  }
+  };
 
   useEffect(() => {
-    api.get<Post[]>(`/posts/`)
-      .then(response => {
-        setPosts(response.data)
+    api
+      .get<Blog[]>(`/blogs/`)
+      .then((response) => {
+        setBlogs(response.data);
       })
-      .catch(error => {
-        console.error('Erro ao buscar posts:', error)
-      })
-  }, [])
+      .catch((error) => {
+        console.error('Erro ao buscar blogs:', error);
+      });
+  }, []);
 
   return (
-    <div className="post-list-container">
+    <div className="blog-list-container">
       <div className="header">
-        <h1>Lista de Posts</h1>
-        <Link to="/posts/create" className="create-button">Criar Novo Post</Link>
+        <h1>Lista de Blogs</h1>
+        <Link to="/blogs/create" className="create-button">
+          Criar Novo Blog
+        </Link>
       </div>
       <ul>
-        {posts.map(post => (
-          <li key={post.id} className="post-item">
-            <Link to={`/posts/${post.id}/detail`} className="post-link-name">{post.title}</Link>
+        {blogs.map((blog) => (
+          <li key={blog.id} className="blog-item">
+            <Link to={`/blogs/${blog.id}/detail`} className="blog-link-name">
+              {blog.title}
+            </Link>
             <div className="actions">
-              <Link to={`/posts/${post.id}/edit`} className="post-link">Editar</Link>
-              <button onClick={() => handleDelete(post.id)} className="delete-button">Deletar</button>
+              <Link to={`/blogs/${blog.id}/edit`} className="blog-link">
+                Editar
+              </Link>
+              <button
+                onClick={() => handleDelete(blog.id)}
+                className="delete-button"
+              >
+                Deletar
+              </button>
             </div>
           </li>
         ))}
       </ul>
     </div>
-  )
+  );
 }
-
-export default PostList
