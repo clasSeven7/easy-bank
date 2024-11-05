@@ -1565,3 +1565,2054 @@ django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
 2024-11-05 11:46:11,188 - INFO - Middleware: Interceptando requisição
 2024-11-05 11:46:11,190 - INFO - Middleware: Interceptando resposta
 2024-11-05 11:46:11,191 - WARNING - Unauthorized: /api/blog/
+2024-11-05 11:59:51,097 - INFO - Watching for file changes with StatReloader
+2024-11-05 11:59:59,437 - INFO - Middleware: Interceptando requisição
+2024-11-05 11:59:59,461 - INFO - Middleware: Interceptando resposta
+2024-11-05 11:59:59,461 - WARNING - Not Found: /
+2024-11-05 11:59:59,792 - INFO - Middleware: Interceptando requisição
+2024-11-05 11:59:59,798 - INFO - Middleware: Interceptando resposta
+2024-11-05 11:59:59,798 - WARNING - Not Found: /favicon.ico
+2024-11-05 12:00:05,861 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:00:05,868 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:00:05,868 - WARNING - Not Found: /api/blogs
+2024-11-05 12:01:14,032 - INFO - /home/saulojustiniano/www/classeven/easy-bank/apps/backend/backend/urls.py changed, reloading.
+2024-11-05 12:01:14,595 - INFO - Watching for file changes with StatReloader
+2024-11-05 12:01:19,954 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:01:19,972 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:01:19,987 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:01:20,041 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:01:20,042 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:21:29,807 - INFO - Watching for file changes with StatReloader
+2024-11-05 12:21:34,542 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:21:34,557 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:21:34,557 - WARNING - Not Found: /api/blog/
+2024-11-05 12:21:34,560 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:21:34,567 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:21:34,568 - WARNING - Not Found: /api/blog/
+2024-11-05 12:30:50,794 - INFO - Watching for file changes with StatReloader
+2024-11-05 12:30:54,572 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:30:54,589 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:30:54,590 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:30:54,636 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:30:54,638 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:30:54,638 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:30:56,044 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:30:56,046 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:30:56,047 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:30:56,053 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:30:56,056 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:30:56,056 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:30:57,596 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:30:57,599 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:30:57,600 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:30:57,606 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:30:57,609 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:30:57,609 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:30:58,652 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:30:58,654 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:30:58,654 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:30:58,659 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:30:58,662 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:30:58,662 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:30:59,763 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:30:59,765 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:30:59,765 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:37:46,391 - INFO - Watching for file changes with StatReloader
+2024-11-05 12:37:50,526 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:37:50,945 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:37:51,266 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:37:51,329 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:37:51,333 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:37:51,378 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:37:54,174 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:37:54,200 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:37:54,203 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:37:54,226 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:38:07,167 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:38:07,210 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:38:07,214 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:38:07,257 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:42:55,353 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:42:55,355 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:42:55,355 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:42:55,363 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:42:55,364 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:42:55,365 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:42:56,642 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:42:56,644 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:42:56,645 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:42:56,648 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:42:56,649 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:42:56,649 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:42:57,973 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:42:57,977 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:42:57,977 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:42:57,984 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:42:57,987 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:42:57,988 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:42:59,553 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:42:59,555 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:42:59,555 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:42:59,560 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:42:59,562 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:42:59,562 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:43:00,663 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:43:00,664 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:43:00,664 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:43:00,674 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:43:00,676 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:43:00,677 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:43:02,061 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:43:02,063 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:43:02,063 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:43:02,067 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:43:02,069 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:43:02,069 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:43:03,182 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:43:03,184 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:43:03,185 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:43:03,195 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:43:03,197 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:43:03,198 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:44:49,185 - INFO - Watching for file changes with StatReloader
+2024-11-05 12:45:27,031 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:45:27,590 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:45:49,563 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:45:49,608 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:07,868 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:07,873 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:07,874 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:07,885 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:07,887 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:07,887 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:09,515 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:09,517 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:09,518 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:09,524 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:09,527 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:09,527 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:11,126 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:11,128 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:11,128 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:11,137 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:11,139 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:11,139 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:12,449 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:12,451 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:12,452 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:12,464 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:12,467 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:12,467 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:13,706 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:13,710 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:13,711 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:13,720 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:13,722 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:13,723 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:15,172 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:15,174 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:15,174 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:15,180 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:15,182 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:15,183 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:16,761 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:16,764 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:16,764 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:16,771 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:16,774 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:16,774 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:18,281 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:18,283 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:18,284 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:18,291 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:18,294 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:18,294 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:20,000 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:20,002 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:20,002 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:20,007 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:20,010 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:20,010 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:22,550 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:22,554 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:22,554 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:22,563 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:22,569 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:22,570 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:24,351 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:24,352 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:24,353 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:24,356 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:24,357 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:24,357 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:25,974 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:25,976 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:25,977 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:25,991 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:25,994 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:25,994 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:27,116 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:27,118 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:27,119 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:27,127 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:27,130 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:27,131 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:28,109 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:28,111 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:28,111 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:28,117 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:28,120 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:28,122 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:29,098 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:29,100 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:29,100 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:29,105 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:29,107 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:29,107 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:30,216 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:30,217 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:30,218 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:30,221 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:30,223 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:30,223 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:31,349 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:31,350 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:31,350 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:31,354 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:31,355 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:31,356 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:32,552 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:32,557 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:32,557 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:47:32,565 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:47:32,568 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:47:32,568 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:33,194 - INFO - Watching for file changes with StatReloader
+2024-11-05 12:49:37,444 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:37,467 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:37,468 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:37,477 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:37,480 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:37,480 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:38,789 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:38,790 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:38,791 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:38,795 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:38,797 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:38,798 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:40,089 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:40,092 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:40,092 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:40,099 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:40,101 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:40,101 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:41,612 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:41,613 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:41,614 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:41,619 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:41,621 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:41,622 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:43,191 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:43,192 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:43,193 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:43,200 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:43,202 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:43,202 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:44,620 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:44,622 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:44,622 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:44,626 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:44,628 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:44,629 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:45,908 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:45,911 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:45,912 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:45,916 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:45,919 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:45,919 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:47,295 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:47,297 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:47,298 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:47,306 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:47,308 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:47,310 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:48,704 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:48,707 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:48,707 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:48,714 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:48,716 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:48,716 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:49,960 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:49,963 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:49,963 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:49,968 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:49,970 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:49,971 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:51,319 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:51,321 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:51,321 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:51,328 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:51,330 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:51,331 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:52,774 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:52,776 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:52,777 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:52,783 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:52,786 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:52,786 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:54,284 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:54,285 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:54,286 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:54,289 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:54,291 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:54,291 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:56,311 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:56,313 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:56,313 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:56,319 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:56,322 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:56,322 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:58,003 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:58,005 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:58,005 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:58,011 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:58,014 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:58,015 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:59,144 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:59,146 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:59,147 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:49:59,151 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:49:59,153 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:49:59,154 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:50:00,741 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:50:00,743 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:50:00,743 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:50:00,749 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:50:00,751 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:50:00,751 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:13,484 - INFO - Watching for file changes with StatReloader
+2024-11-05 12:54:19,224 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:19,284 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:19,287 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:19,303 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:19,316 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:19,316 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:21,044 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:21,047 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:21,047 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:21,054 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:21,057 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:21,058 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:22,384 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:22,386 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:22,386 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:22,389 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:22,391 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:22,391 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:23,781 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:23,783 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:23,783 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:23,790 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:23,795 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:23,795 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:25,146 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:25,149 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:25,149 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:25,155 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:25,158 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:25,158 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:26,800 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:26,801 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:26,801 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:26,806 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:26,810 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:26,810 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:28,180 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:28,182 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:28,182 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:28,186 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:28,187 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:28,188 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:29,719 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:29,720 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:29,721 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:29,727 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:29,729 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:29,729 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:31,163 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:31,165 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:31,166 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:31,176 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:31,179 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:31,180 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:32,580 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:32,583 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:32,583 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:32,595 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:32,597 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:32,603 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:34,048 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:34,050 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:34,051 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:34,054 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:34,057 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:34,058 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:35,820 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:35,822 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:35,822 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:35,832 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:35,834 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:35,834 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:37,516 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:37,518 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:37,518 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:37,524 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:54:37,526 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:54:37,527 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:54:59,912 - INFO - Watching for file changes with StatReloader
+2024-11-05 12:56:54,933 - INFO - /home/saulojustiniano/www/classeven/easy-bank/apps/backend/backend/settings.py changed, reloading.
+2024-11-05 12:56:55,770 - INFO - Watching for file changes with StatReloader
+2024-11-05 12:57:34,637 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:34,652 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:34,653 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:34,658 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:34,662 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:34,662 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:35,974 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:35,975 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:35,976 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:35,979 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:35,980 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:35,981 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:37,566 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:37,568 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:37,568 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:37,572 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:37,574 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:37,574 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:39,055 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:39,057 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:39,057 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:39,069 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:39,072 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:39,072 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:40,321 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:40,324 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:40,326 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:40,340 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:40,346 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:40,347 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:41,824 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:41,826 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:41,826 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:41,829 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:41,831 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:41,831 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:43,281 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:43,284 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:43,284 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:43,290 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:43,293 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:43,294 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:44,686 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:44,688 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:44,689 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:44,693 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:44,696 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:44,696 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:45,934 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:45,936 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:45,937 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:45,945 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:45,950 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:45,950 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:47,296 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:47,299 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:47,299 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:47,310 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:47,314 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:47,315 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:49,105 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:49,107 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:49,107 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:57:49,112 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:57:49,114 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:57:49,115 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 12:59:37,415 - INFO - Watching for file changes with StatReloader
+2024-11-05 12:59:43,190 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:59:43,621 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:59:43,799 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:59:43,838 - INFO - Middleware: Interceptando resposta
+2024-11-05 12:59:43,841 - INFO - Middleware: Interceptando requisição
+2024-11-05 12:59:43,866 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:01:20,115 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:01:20,140 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:01:20,143 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:01:20,183 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:01:32,006 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:01:32,041 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:01:32,044 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:01:32,081 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:02:11,131 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:02:11,161 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:02:11,164 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:02:11,202 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:03:36,275 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:03:36,304 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:03:36,307 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:03:36,337 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:04:41,326 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:04:41,355 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:04:41,357 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:04:41,394 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:21,568 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:21,571 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:21,571 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:21,582 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:21,584 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:21,584 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:23,206 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:23,209 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:23,209 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:23,216 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:23,218 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:23,218 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:24,436 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:24,438 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:24,438 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:24,444 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:24,447 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:24,447 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:25,891 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:25,893 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:25,893 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:25,897 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:25,898 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:25,898 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:27,268 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:27,270 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:27,270 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:27,275 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:27,277 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:27,277 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:28,432 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:28,434 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:28,435 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:28,442 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:28,445 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:28,446 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:29,988 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:29,989 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:29,990 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:29,998 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:30,000 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:30,000 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:31,336 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:31,337 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:31,337 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:31,342 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:31,344 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:31,345 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:32,770 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:32,773 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:32,774 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:32,779 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:32,782 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:32,782 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:34,190 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:34,193 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:34,193 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:34,200 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:34,202 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:34,202 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:35,620 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:35,623 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:35,623 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:05:35,632 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:05:35,636 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:05:35,636 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 13:06:54,385 - INFO - Watching for file changes with StatReloader
+2024-11-05 13:06:56,724 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:06:57,163 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:06:57,440 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:06:57,473 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:06:57,476 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:06:57,509 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:07:11,463 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:07:11,501 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:07:11,505 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:07:11,546 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:09:20,825 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:09:20,846 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:09:20,848 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:09:20,870 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:12:52,476 - INFO - /home/saulojustiniano/www/classeven/easy-bank/apps/backend/backend/settings.py changed, reloading.
+2024-11-05 13:14:10,488 - INFO - Watching for file changes with StatReloader
+2024-11-05 13:14:12,210 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:14:12,629 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:14:12,828 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:14:12,866 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:14:12,873 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:14:12,914 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:14:16,406 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:14:16,437 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:14:16,440 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:14:16,479 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:14:31,788 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:14:31,826 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:14:31,829 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:14:31,854 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:14:40,220 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:14:40,252 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:14:40,255 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:14:40,291 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:16:53,656 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:16:53,701 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:16:57,992 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:16:58,024 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:16:58,027 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:16:58,054 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:17:30,750 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:17:30,800 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:18:38,183 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:18:38,223 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:18:38,227 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:18:38,264 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:21:02,948 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:21:02,987 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:21:02,992 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:21:03,034 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:21:06,841 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:21:06,869 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:21:06,885 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:21:06,887 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:21:06,911 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:21:06,917 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:21:09,713 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:21:09,760 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:22:27,077 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:22:27,112 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:22:27,115 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:22:27,145 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:23:28,431 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:23:28,459 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:23:28,461 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:23:28,498 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:23:31,991 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:23:32,019 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:23:32,021 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:23:32,052 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:24:33,543 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:24:33,574 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:28:55,738 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:28:55,786 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:28:55,796 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:28:55,851 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:28:58,363 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:28:58,390 - INFO - Middleware: Interceptando resposta
+2024-11-05 13:28:58,393 - INFO - Middleware: Interceptando requisição
+2024-11-05 13:28:58,422 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:36,837 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:36,838 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:36,838 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:37,215 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:37,216 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:37,216 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:37,219 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:37,220 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:37,220 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:37,498 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:37,499 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:37,499 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:37,502 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:37,503 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:37,503 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:37,800 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:37,801 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:37,801 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:37,819 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:37,820 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:37,820 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:38,096 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:38,096 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:38,097 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:38,098 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:38,099 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:38,099 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:38,352 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:38,354 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:38,355 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:38,360 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:38,361 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:38,361 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:38,603 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:38,604 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:38,604 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:38,609 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:38,610 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:38,610 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:38,899 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:38,899 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:38,900 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:38,902 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:38,903 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:38,903 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:39,209 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:39,210 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:39,211 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:39,216 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:39,217 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:39,217 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:39,501 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:39,502 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:39,502 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:39,508 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:39,509 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:39,509 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:39,803 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:39,804 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:39,804 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:39,811 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:39,812 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:39,812 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:40,096 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:40,097 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:40,098 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:40,100 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:40,101 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:40,102 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:40,380 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:40,381 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:40,381 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:40,383 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:40,383 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:40,384 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:40,640 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:40,642 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:40,642 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:40,646 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:40,647 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:40,648 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:40,940 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:40,942 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:40,942 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:40,945 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:40,946 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:40,946 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:41,233 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:41,234 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:41,234 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:41,237 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:41,238 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:41,238 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:41,527 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:41,528 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:41,528 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:41,531 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:41,531 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:41,531 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:41,799 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:41,800 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:41,800 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:41,806 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:41,807 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:41,807 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:42,055 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:42,057 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:42,057 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:42,060 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:42,061 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:42,061 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:42,294 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:42,295 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:42,295 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:18:42,299 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:18:42,300 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:18:42,300 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:47,027 - INFO - Watching for file changes with StatReloader
+2024-11-05 14:19:51,740 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:51,748 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:51,748 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:51,753 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:51,757 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:51,758 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:52,232 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:52,236 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:52,237 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:52,239 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:52,241 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:52,241 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:52,590 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:52,591 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:52,591 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:52,610 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:52,611 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:52,611 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:52,910 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:52,911 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:52,911 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:52,913 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:52,914 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:52,914 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:53,218 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:53,219 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:53,219 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:53,224 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:53,226 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:53,226 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:53,574 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:53,575 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:53,575 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:53,577 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:53,578 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:53,578 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:53,964 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:53,965 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:53,965 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:53,967 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:53,968 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:53,969 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:54,313 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:54,314 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:54,314 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:54,316 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:54,317 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:54,318 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:54,639 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:54,640 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:54,640 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:54,642 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:54,643 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:54,643 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:54,924 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:54,925 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:54,926 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:54,932 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:54,933 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:54,933 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:55,302 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:55,304 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:55,304 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:55,309 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:55,311 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:55,311 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:55,597 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:55,599 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:55,599 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:55,604 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:55,605 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:55,605 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:55,911 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:55,911 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:55,911 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:55,914 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:55,915 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:55,915 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:56,280 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:56,281 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:56,281 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:19:56,283 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:19:56,283 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:19:56,284 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:20:19,282 - INFO - Watching for file changes with StatReloader
+2024-11-05 14:20:29,684 - INFO - Watching for file changes with StatReloader
+2024-11-05 14:21:26,380 - INFO - Watching for file changes with StatReloader
+2024-11-05 14:22:14,712 - INFO - Watching for file changes with StatReloader
+2024-11-05 14:23:07,790 - INFO - Watching for file changes with StatReloader
+2024-11-05 14:23:15,748 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:15,757 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:15,757 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:15,801 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:15,803 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:15,803 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:16,365 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:16,367 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:16,367 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:16,375 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:16,377 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:16,377 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:16,843 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:16,844 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:16,844 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:16,846 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:16,846 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:16,847 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:17,209 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:17,211 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:17,211 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:17,215 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:17,217 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:17,217 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:17,541 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:17,542 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:17,542 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:17,544 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:17,545 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:17,545 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:17,894 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:17,895 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:17,895 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:17,898 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:17,900 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:17,900 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:18,205 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:18,206 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:18,206 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:18,208 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:18,209 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:18,209 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:18,665 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:18,666 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:18,667 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:18,671 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:18,673 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:18,673 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:19,164 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:19,165 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:19,165 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:19,167 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:19,168 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:19,168 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:19,543 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:19,544 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:19,545 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:19,556 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:19,559 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:19,559 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:19,864 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:19,865 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:19,865 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:19,872 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:19,873 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:19,873 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:20,215 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:20,216 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:20,216 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:20,220 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:20,221 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:20,222 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:20,505 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:20,506 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:20,506 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:20,512 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:20,514 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:20,514 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:20,817 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:20,819 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:20,820 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:20,822 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:20,824 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:20,824 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:21,262 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:21,263 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:21,263 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:21,267 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:21,268 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:21,269 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:21,565 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:21,566 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:21,567 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:21,575 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:21,576 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:21,577 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:21,895 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:21,896 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:21,896 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:21,903 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:21,905 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:21,905 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:22,213 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:22,214 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:22,214 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:22,216 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:22,216 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:22,216 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:22,597 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:22,599 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:22,599 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:22,602 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:22,603 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:22,603 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:22,873 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:22,875 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:22,875 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:22,891 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:22,892 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:22,893 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:23,208 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:23,209 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:23,210 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:23,214 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:23,215 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:23,215 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:23,527 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:23,528 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:23,528 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:23,530 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:23,532 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:23,532 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:23,904 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:23,904 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:23,905 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:23,906 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:23,907 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:23,908 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:24,249 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:24,249 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:24,250 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:24,254 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:24,255 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:24,255 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:24,577 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:24,577 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:24,577 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:24,593 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:24,594 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:24,594 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:24,942 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:24,943 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:24,943 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:24,949 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:24,950 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:24,950 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:25,285 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:25,286 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:25,286 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:25,288 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:25,289 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:25,289 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:25,592 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:25,593 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:25,593 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:25,595 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:25,596 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:25,596 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:25,926 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:25,927 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:25,927 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:25,929 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:25,930 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:25,930 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:26,243 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:26,243 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:26,244 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:26,245 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:26,247 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:26,247 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:26,633 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:26,634 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:26,634 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:26,637 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:26,638 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:26,638 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:26,971 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:26,971 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:26,972 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:26,975 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:26,976 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:26,976 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:27,375 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:27,376 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:27,376 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:27,379 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:27,380 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:27,380 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:27,693 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:27,695 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:27,696 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:27,705 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:27,707 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:27,707 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:28,022 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:28,023 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:28,024 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:23:28,026 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:23:28,028 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:23:28,028 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:07,424 - INFO - Watching for file changes with StatReloader
+2024-11-05 14:24:09,530 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:09,539 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:09,539 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:09,545 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:09,546 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:09,546 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:09,947 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:09,949 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:09,949 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:09,953 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:09,955 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:09,956 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:10,403 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:10,404 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:10,404 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:10,408 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:10,409 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:10,409 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:10,791 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:10,792 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:10,792 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:10,795 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:10,796 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:10,796 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:11,239 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:11,240 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:11,240 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:11,243 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:11,243 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:11,244 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:11,615 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:11,616 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:11,616 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:11,620 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:11,622 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:11,622 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:11,996 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:11,999 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:11,999 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:12,003 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:12,004 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:12,005 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:12,384 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:12,386 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:12,386 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:12,414 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:12,415 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:12,415 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:12,725 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:12,726 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:12,727 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:12,738 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:12,739 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:12,740 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:13,134 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:13,135 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:13,135 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:13,137 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:13,139 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:13,139 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:13,472 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:13,474 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:13,475 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:13,483 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:13,484 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:13,484 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:13,769 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:13,772 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:13,772 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:13,779 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:13,781 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:13,781 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:14,125 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:14,128 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:14,128 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:14,131 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:14,132 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:14,133 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:14,466 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:14,467 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:14,468 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:14,472 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:14,473 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:14,473 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:14,857 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:14,859 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:14,859 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:14,864 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:14,866 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:14,866 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:15,216 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:15,216 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:15,217 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:15,219 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:15,220 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:15,220 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:15,565 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:15,566 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:15,566 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:15,574 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:15,575 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:15,576 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:15,865 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:15,865 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:15,866 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:15,881 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:15,883 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:15,884 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:16,188 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:16,189 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:16,189 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:24:16,197 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:24:16,198 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:24:16,198 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:25:56,251 - INFO - Watching for file changes with StatReloader
+2024-11-05 14:25:59,718 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:25:59,726 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:25:59,726 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:25:59,738 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:25:59,740 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:25:59,740 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:00,369 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:00,370 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:00,370 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:00,372 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:00,373 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:00,373 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:00,966 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:00,967 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:00,967 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:00,970 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:00,971 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:00,971 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:01,587 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:01,587 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:01,588 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:01,590 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:01,591 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:01,591 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:02,235 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:02,236 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:02,236 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:02,239 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:02,240 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:02,240 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:02,804 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:02,805 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:02,805 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:02,809 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:02,810 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:02,811 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:03,371 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:03,373 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:03,373 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:03,376 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:03,377 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:03,377 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:03,952 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:03,954 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:03,954 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:03,958 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:03,959 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:03,961 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:04,591 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:04,592 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:04,592 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:04,596 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:04,597 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:04,597 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:05,149 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:05,150 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:05,151 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:05,154 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:05,157 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:05,158 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:05,989 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:05,990 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:05,990 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:05,992 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:05,993 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:05,993 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:06,563 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:06,564 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:06,564 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:06,566 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:06,567 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:06,567 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:07,180 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:07,181 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:07,181 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:07,184 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:07,185 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:07,185 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:07,961 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:07,962 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:07,962 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:07,964 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:07,965 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:07,965 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:08,542 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:08,543 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:08,543 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:08,546 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:08,546 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:08,547 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:09,022 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:09,023 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:09,023 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:26:09,027 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:26:09,029 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:26:09,029 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:27:55,149 - INFO - Watching for file changes with StatReloader
+2024-11-05 14:28:00,879 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:00,888 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:00,888 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:00,894 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:00,896 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:00,896 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:01,545 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:01,547 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:01,547 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:01,551 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:01,552 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:01,553 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:02,256 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:02,257 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:02,258 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:02,261 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:02,262 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:02,262 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:02,843 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:02,845 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:02,845 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:02,850 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:02,852 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:02,852 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:03,483 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:03,484 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:03,484 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:03,486 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:03,488 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:03,488 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:04,145 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:04,147 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:04,147 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:04,150 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:04,152 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:04,152 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:04,726 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:04,727 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:04,727 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:04,748 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:04,749 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:04,749 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:05,324 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:05,325 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:05,326 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:05,328 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:05,329 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:05,330 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:05,896 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:05,897 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:05,897 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:05,900 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:05,902 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:05,902 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:06,446 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:06,447 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:06,447 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:06,449 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:06,450 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:06,450 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:07,047 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:07,048 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:07,048 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:07,050 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:07,051 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:07,051 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:07,627 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:07,629 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:07,629 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:07,631 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:07,632 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:07,632 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:08,300 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:08,301 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:08,301 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:08,303 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:08,304 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:08,304 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:08,860 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:08,862 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:08,862 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:08,867 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:08,869 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:08,869 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:09,429 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:09,430 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:09,430 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:09,432 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:09,432 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:09,432 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:09,950 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:09,951 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:09,951 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:09,956 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:09,958 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:09,958 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:10,447 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:10,450 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:10,450 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:10,456 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:10,459 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:10,460 - WARNING - Unauthorized: /api/blogs/
+2024-11-05 14:28:25,090 - INFO - Watching for file changes with StatReloader
+2024-11-05 14:28:26,744 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:26,979 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:27,176 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:27,204 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:27,208 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:27,232 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:27,275 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:27,277 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:28:27,278 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:28:27,278 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:31:27,832 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:31:27,856 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:31:27,858 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:31:27,888 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:31:41,032 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:31:41,051 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:31:41,052 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:31:41,073 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:33:07,317 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:33:07,334 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:33:07,336 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:33:07,351 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:33:10,523 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:33:10,541 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:33:10,543 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:33:10,561 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:33:16,496 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:33:16,507 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:33:16,508 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:33:16,521 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:33:53,142 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:33:53,158 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:33:53,166 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:33:53,183 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:34:02,637 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:34:02,651 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:34:02,652 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:34:02,668 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:34:29,581 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:34:29,593 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:34:29,595 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:34:29,616 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:34:36,450 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:34:36,462 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:34:36,462 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:34:36,476 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:35:07,672 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:35:07,686 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:35:07,687 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:35:07,700 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:35:10,022 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:35:10,039 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:35:10,040 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:35:10,057 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:35:13,695 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:35:13,710 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:35:13,711 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:35:13,725 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:36:39,506 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:36:39,522 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:36:39,523 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:36:39,538 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:36:40,278 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:36:40,294 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:36:40,295 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:36:40,312 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:36:49,638 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:36:49,651 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:36:49,653 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:36:49,666 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:36:54,858 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:36:54,872 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:36:54,873 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:36:54,886 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:39:55,539 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:39:55,549 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:40:32,927 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:40:32,946 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:40:32,947 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:40:32,959 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:42:48,488 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:42:48,504 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:42:48,505 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:42:48,519 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:44:15,170 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:44:15,186 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:44:15,187 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:44:15,201 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:44:30,697 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:44:30,712 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:44:30,715 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:44:30,733 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:48:53,582 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:48:53,598 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:48:53,600 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:48:53,616 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:48:56,178 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:48:56,194 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:48:56,195 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:48:56,209 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:52:45,942 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:52:45,955 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:52:45,956 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:52:45,969 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:53:16,491 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:53:16,506 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:53:16,507 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:53:16,524 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:53:19,516 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:53:19,532 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:53:19,534 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:53:19,548 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:53:26,934 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:53:26,956 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:53:26,957 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:53:26,968 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:54:34,233 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:54:34,247 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:54:34,249 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:54:34,263 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:56:11,682 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:56:11,697 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:56:11,699 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:56:11,716 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:58:30,682 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:58:30,697 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:58:30,698 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:58:30,715 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:58:34,449 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:58:34,467 - INFO - Middleware: Interceptando resposta
+2024-11-05 14:58:34,469 - INFO - Middleware: Interceptando requisição
+2024-11-05 14:58:34,482 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:17,290 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:17,300 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:17,302 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:17,315 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:18,740 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:18,754 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:18,755 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:18,770 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:22,728 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:22,744 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:22,745 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:22,761 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:26,371 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:26,386 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:26,387 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:26,398 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:36,855 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:36,870 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:36,871 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:36,884 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:39,506 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:39,522 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:39,524 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:39,539 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:59,109 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:59,124 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:02:59,130 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:02:59,149 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:39:25,258 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:39:25,310 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:39:25,315 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:39:25,362 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:39:54,186 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:39:54,221 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:39:54,224 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:39:54,255 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:52:01,336 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:52:01,375 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:52:01,376 - WARNING - Not Found: /api/blogs/undefined/
+2024-11-05 15:55:13,445 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:55:13,487 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:55:13,490 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:55:13,519 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:55:28,444 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:55:28,498 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:55:28,501 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:55:28,552 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:55:31,771 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:55:31,808 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:55:31,812 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:55:31,855 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:58:17,749 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:58:17,774 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:58:17,776 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:58:17,803 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:59:17,684 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:59:17,708 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:59:17,709 - WARNING - Not Found: /api/blogs/undefined/
+2024-11-05 15:59:21,760 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:59:21,787 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:59:21,788 - WARNING - Not Found: /api/blogs/undefined/
+2024-11-05 15:59:53,177 - INFO - Middleware: Interceptando requisição
+2024-11-05 15:59:53,211 - INFO - Middleware: Interceptando resposta
+2024-11-05 15:59:53,212 - WARNING - Not Found: /api/blogs/undefined/
+2024-11-05 16:02:11,657 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:02:12,040 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:02:12,300 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:02:12,329 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:02:12,375 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:02:12,417 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:02:12,518 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:02:12,520 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:02:12,521 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:02:12,522 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:02:22,165 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:02:22,209 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:02:22,211 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:02:22,244 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:03:17,776 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:03:17,812 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:03:58,274 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:03:58,308 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:04:13,008 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:04:13,041 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:04:13,045 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:04:13,082 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:04:46,664 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:04:46,685 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:04:55,414 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:04:55,435 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:04:55,438 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:04:55,459 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:04:57,799 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:04:57,846 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:04:57,849 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:04:57,881 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:04:59,162 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:04:59,203 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:04:59,246 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:04:59,266 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:05:02,649 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:05:02,681 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:05:02,684 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:05:02,714 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:05:03,833 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:05:03,877 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:05:03,880 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:05:03,923 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:05:06,867 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:05:06,916 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:05:06,920 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:05:06,956 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:05:26,480 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:05:26,510 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:05:26,513 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:05:26,541 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:06:05,762 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:06:05,872 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:06:06,573 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:06:06,597 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:06:06,598 - WARNING - Not Found: /favicon.ico
+2024-11-05 16:06:09,286 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:06:09,373 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:06:09,534 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:06:09,566 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:06:11,569 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:06:11,637 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:06:11,757 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:06:11,785 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:07:09,046 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:07:09,116 - DEBUG - STREAM b'IHDR' 16 13
+2024-11-05 16:07:09,116 - DEBUG - STREAM b'pHYs' 41 9
+2024-11-05 16:07:09,116 - DEBUG - STREAM b'sRGB' 62 1
+2024-11-05 16:07:09,116 - DEBUG - STREAM b'gAMA' 75 4
+2024-11-05 16:07:09,116 - DEBUG - STREAM b'IDAT' 91 2205
+2024-11-05 16:07:09,116 - DEBUG - Importing BlpImagePlugin
+2024-11-05 16:07:09,118 - DEBUG - Importing BmpImagePlugin
+2024-11-05 16:07:09,119 - DEBUG - Importing BufrStubImagePlugin
+2024-11-05 16:07:09,120 - DEBUG - Importing CurImagePlugin
+2024-11-05 16:07:09,121 - DEBUG - Importing DcxImagePlugin
+2024-11-05 16:07:09,122 - DEBUG - Importing DdsImagePlugin
+2024-11-05 16:07:09,133 - DEBUG - Importing EpsImagePlugin
+2024-11-05 16:07:09,137 - DEBUG - Importing FitsImagePlugin
+2024-11-05 16:07:09,138 - DEBUG - Importing FliImagePlugin
+2024-11-05 16:07:09,140 - DEBUG - Importing FpxImagePlugin
+2024-11-05 16:07:09,142 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-05 16:07:09,143 - DEBUG - Importing FtexImagePlugin
+2024-11-05 16:07:09,144 - DEBUG - Importing GbrImagePlugin
+2024-11-05 16:07:09,146 - DEBUG - Importing GifImagePlugin
+2024-11-05 16:07:09,146 - DEBUG - Importing GribStubImagePlugin
+2024-11-05 16:07:09,147 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-05 16:07:09,148 - DEBUG - Importing IcnsImagePlugin
+2024-11-05 16:07:09,152 - DEBUG - Importing IcoImagePlugin
+2024-11-05 16:07:09,156 - DEBUG - Importing ImImagePlugin
+2024-11-05 16:07:09,159 - DEBUG - Importing ImtImagePlugin
+2024-11-05 16:07:09,161 - DEBUG - Importing IptcImagePlugin
+2024-11-05 16:07:09,162 - DEBUG - Importing JpegImagePlugin
+2024-11-05 16:07:09,162 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-05 16:07:09,163 - DEBUG - Importing McIdasImagePlugin
+2024-11-05 16:07:09,164 - DEBUG - Importing MicImagePlugin
+2024-11-05 16:07:09,165 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-05 16:07:09,165 - DEBUG - Importing MpegImagePlugin
+2024-11-05 16:07:09,166 - DEBUG - Importing MpoImagePlugin
+2024-11-05 16:07:09,178 - DEBUG - Importing MspImagePlugin
+2024-11-05 16:07:09,179 - DEBUG - Importing PalmImagePlugin
+2024-11-05 16:07:09,182 - DEBUG - Importing PcdImagePlugin
+2024-11-05 16:07:09,182 - DEBUG - Importing PcxImagePlugin
+2024-11-05 16:07:09,183 - DEBUG - Importing PdfImagePlugin
+2024-11-05 16:07:09,199 - DEBUG - Importing PixarImagePlugin
+2024-11-05 16:07:09,201 - DEBUG - Importing PngImagePlugin
+2024-11-05 16:07:09,201 - DEBUG - Importing PpmImagePlugin
+2024-11-05 16:07:09,201 - DEBUG - Importing PsdImagePlugin
+2024-11-05 16:07:09,202 - DEBUG - Importing QoiImagePlugin
+2024-11-05 16:07:09,204 - DEBUG - Importing SgiImagePlugin
+2024-11-05 16:07:09,205 - DEBUG - Importing SpiderImagePlugin
+2024-11-05 16:07:09,206 - DEBUG - Importing SunImagePlugin
+2024-11-05 16:07:09,207 - DEBUG - Importing TgaImagePlugin
+2024-11-05 16:07:09,209 - DEBUG - Importing TiffImagePlugin
+2024-11-05 16:07:09,209 - DEBUG - Importing WebPImagePlugin
+2024-11-05 16:07:09,213 - DEBUG - Importing WmfImagePlugin
+2024-11-05 16:07:09,215 - DEBUG - Importing XbmImagePlugin
+2024-11-05 16:07:09,217 - DEBUG - Importing XpmImagePlugin
+2024-11-05 16:07:09,219 - DEBUG - Importing XVThumbImagePlugin
+2024-11-05 16:07:09,330 - ERROR - Internal Server Error: /admin/app/comment/add/
+Traceback (most recent call last):
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1877, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 952, in log_addition
+    return LogEntry.objects.log_actions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/models.py", line 89, in log_actions
+    object_repr=str(obj)[:200],
+                ^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/apps/backend/app/models.py", line 25, in __str__
+    return self.user
+           ^^^^^^^^^
+AttributeError: 'Comment' object has no attribute 'user'
+2024-11-05 16:07:09,332 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:07:17,691 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:07:17,748 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:07:25,791 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:07:25,810 - DEBUG - STREAM b'IHDR' 16 13
+2024-11-05 16:07:25,810 - DEBUG - STREAM b'pHYs' 41 9
+2024-11-05 16:07:25,810 - DEBUG - STREAM b'sRGB' 62 1
+2024-11-05 16:07:25,811 - DEBUG - STREAM b'gAMA' 75 4
+2024-11-05 16:07:25,811 - DEBUG - STREAM b'IDAT' 91 2205
+2024-11-05 16:07:25,845 - ERROR - Internal Server Error: /admin/app/comment/add/
+Traceback (most recent call last):
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1877, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 952, in log_addition
+    return LogEntry.objects.log_actions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/models.py", line 89, in log_actions
+    object_repr=str(obj)[:200],
+                ^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/apps/backend/app/models.py", line 25, in __str__
+    return self.user
+           ^^^^^^^^^
+AttributeError: 'Comment' object has no attribute 'user'
+2024-11-05 16:07:25,846 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:07:37,319 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:07:37,383 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:07:43,651 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:07:43,684 - DEBUG - STREAM b'IHDR' 16 13
+2024-11-05 16:07:43,685 - DEBUG - STREAM b'pHYs' 41 9
+2024-11-05 16:07:43,685 - DEBUG - STREAM b'sRGB' 62 1
+2024-11-05 16:07:43,685 - DEBUG - STREAM b'gAMA' 75 4
+2024-11-05 16:07:43,685 - DEBUG - STREAM b'IDAT' 91 2205
+2024-11-05 16:07:43,756 - ERROR - Internal Server Error: /admin/app/comment/add/
+Traceback (most recent call last):
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1877, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 952, in log_addition
+    return LogEntry.objects.log_actions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/models.py", line 89, in log_actions
+    object_repr=str(obj)[:200],
+                ^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/apps/backend/app/models.py", line 25, in __str__
+    return self.user
+           ^^^^^^^^^
+AttributeError: 'Comment' object has no attribute 'user'
+2024-11-05 16:07:43,759 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:08:25,406 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:08:25,474 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:08:32,988 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:08:33,029 - DEBUG - STREAM b'IHDR' 16 13
+2024-11-05 16:08:33,029 - DEBUG - STREAM b'pHYs' 41 9
+2024-11-05 16:08:33,030 - DEBUG - STREAM b'sRGB' 62 1
+2024-11-05 16:08:33,030 - DEBUG - STREAM b'gAMA' 75 4
+2024-11-05 16:08:33,030 - DEBUG - STREAM b'IDAT' 91 2205
+2024-11-05 16:08:33,085 - ERROR - Internal Server Error: /admin/app/comment/add/
+Traceback (most recent call last):
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 718, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/sites.py", line 241, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1961, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/utils/decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1820, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 1877, in _changeform_view
+    self.log_addition(request, new_object, change_message)
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/options.py", line 952, in log_addition
+    return LogEntry.objects.log_actions(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/lib/python3.12/site-packages/django/contrib/admin/models.py", line 89, in log_actions
+    object_repr=str(obj)[:200],
+                ^^^^^^^^
+  File "/home/saulojustiniano/www/classeven/easy-bank/apps/backend/app/models.py", line 25, in __str__
+    return self.user
+           ^^^^^^^^^
+AttributeError: 'Comment' object has no attribute 'user'
+2024-11-05 16:08:33,086 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:09:36,700 - INFO - /home/saulojustiniano/www/classeven/easy-bank/apps/backend/app/models.py changed, reloading.
+2024-11-05 16:09:37,246 - INFO - Watching for file changes with StatReloader
+2024-11-05 16:10:05,820 - INFO - Watching for file changes with StatReloader
+2024-11-05 16:10:12,491 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:10:12,626 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:10:15,204 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:10:15,259 - DEBUG - STREAM b'IHDR' 16 13
+2024-11-05 16:10:15,259 - DEBUG - STREAM b'pHYs' 41 9
+2024-11-05 16:10:15,260 - DEBUG - STREAM b'sRGB' 62 1
+2024-11-05 16:10:15,260 - DEBUG - STREAM b'gAMA' 75 4
+2024-11-05 16:10:15,260 - DEBUG - STREAM b'IDAT' 91 2205
+2024-11-05 16:10:15,261 - DEBUG - Importing BlpImagePlugin
+2024-11-05 16:10:15,263 - DEBUG - Importing BmpImagePlugin
+2024-11-05 16:10:15,264 - DEBUG - Importing BufrStubImagePlugin
+2024-11-05 16:10:15,264 - DEBUG - Importing CurImagePlugin
+2024-11-05 16:10:15,265 - DEBUG - Importing DcxImagePlugin
+2024-11-05 16:10:15,267 - DEBUG - Importing DdsImagePlugin
+2024-11-05 16:10:15,275 - DEBUG - Importing EpsImagePlugin
+2024-11-05 16:10:15,278 - DEBUG - Importing FitsImagePlugin
+2024-11-05 16:10:15,279 - DEBUG - Importing FliImagePlugin
+2024-11-05 16:10:15,280 - DEBUG - Importing FpxImagePlugin
+2024-11-05 16:10:15,281 - DEBUG - Image: failed to import FpxImagePlugin: No module named 'olefile'
+2024-11-05 16:10:15,281 - DEBUG - Importing FtexImagePlugin
+2024-11-05 16:10:15,283 - DEBUG - Importing GbrImagePlugin
+2024-11-05 16:10:15,283 - DEBUG - Importing GifImagePlugin
+2024-11-05 16:10:15,284 - DEBUG - Importing GribStubImagePlugin
+2024-11-05 16:10:15,285 - DEBUG - Importing Hdf5StubImagePlugin
+2024-11-05 16:10:15,286 - DEBUG - Importing IcnsImagePlugin
+2024-11-05 16:10:15,292 - DEBUG - Importing IcoImagePlugin
+2024-11-05 16:10:15,295 - DEBUG - Importing ImImagePlugin
+2024-11-05 16:10:15,297 - DEBUG - Importing ImtImagePlugin
+2024-11-05 16:10:15,298 - DEBUG - Importing IptcImagePlugin
+2024-11-05 16:10:15,299 - DEBUG - Importing JpegImagePlugin
+2024-11-05 16:10:15,299 - DEBUG - Importing Jpeg2KImagePlugin
+2024-11-05 16:10:15,299 - DEBUG - Importing McIdasImagePlugin
+2024-11-05 16:10:15,299 - DEBUG - Importing MicImagePlugin
+2024-11-05 16:10:15,300 - DEBUG - Image: failed to import MicImagePlugin: No module named 'olefile'
+2024-11-05 16:10:15,300 - DEBUG - Importing MpegImagePlugin
+2024-11-05 16:10:15,301 - DEBUG - Importing MpoImagePlugin
+2024-11-05 16:10:15,309 - DEBUG - Importing MspImagePlugin
+2024-11-05 16:10:15,310 - DEBUG - Importing PalmImagePlugin
+2024-11-05 16:10:15,311 - DEBUG - Importing PcdImagePlugin
+2024-11-05 16:10:15,311 - DEBUG - Importing PcxImagePlugin
+2024-11-05 16:10:15,311 - DEBUG - Importing PdfImagePlugin
+2024-11-05 16:10:15,319 - DEBUG - Importing PixarImagePlugin
+2024-11-05 16:10:15,320 - DEBUG - Importing PngImagePlugin
+2024-11-05 16:10:15,320 - DEBUG - Importing PpmImagePlugin
+2024-11-05 16:10:15,320 - DEBUG - Importing PsdImagePlugin
+2024-11-05 16:10:15,320 - DEBUG - Importing QoiImagePlugin
+2024-11-05 16:10:15,321 - DEBUG - Importing SgiImagePlugin
+2024-11-05 16:10:15,321 - DEBUG - Importing SpiderImagePlugin
+2024-11-05 16:10:15,322 - DEBUG - Importing SunImagePlugin
+2024-11-05 16:10:15,322 - DEBUG - Importing TgaImagePlugin
+2024-11-05 16:10:15,322 - DEBUG - Importing TiffImagePlugin
+2024-11-05 16:10:15,323 - DEBUG - Importing WebPImagePlugin
+2024-11-05 16:10:15,324 - DEBUG - Importing WmfImagePlugin
+2024-11-05 16:10:15,325 - DEBUG - Importing XbmImagePlugin
+2024-11-05 16:10:15,326 - DEBUG - Importing XpmImagePlugin
+2024-11-05 16:10:15,327 - DEBUG - Importing XVThumbImagePlugin
+2024-11-05 16:10:15,347 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:10:15,359 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:10:15,436 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:10:15,625 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:10:15,663 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:10:21,303 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:10:21,355 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:10:21,449 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:10:21,496 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:10:41,372 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:10:41,415 - DEBUG - STREAM b'IHDR' 16 13
+2024-11-05 16:10:41,415 - DEBUG - STREAM b'pHYs' 41 9
+2024-11-05 16:10:41,416 - DEBUG - STREAM b'sRGB' 62 1
+2024-11-05 16:10:41,416 - DEBUG - STREAM b'gAMA' 75 4
+2024-11-05 16:10:41,416 - DEBUG - STREAM b'IDAT' 91 84698
+2024-11-05 16:10:41,430 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:10:41,448 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:10:41,514 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:10:41,644 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:10:41,678 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:18:02,519 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:18:02,918 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:18:19,414 - INFO - Middleware: Interceptando requisição
+2024-11-05 16:18:19,438 - INFO - Middleware: Interceptando resposta
+2024-11-05 16:26:48,470 - INFO - Watching for file changes with StatReloader
+2024-11-05 17:18:50,769 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:18:50,774 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:18:50,854 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:18:50,859 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:18:50,864 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:18:50,903 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:18:50,904 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:18:50,941 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:19:27,458 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:19:27,460 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:19:27,461 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:19:27,477 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:19:27,478 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:19:27,500 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:19:35,648 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:19:35,684 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:20:13,047 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:20:13,086 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:20:37,284 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:20:37,285 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:20:37,316 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:20:37,322 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:20:37,326 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:20:37,333 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:20:37,363 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:20:37,367 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:20:37,565 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:20:37,567 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:20:37,570 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:20:37,572 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:21:05,445 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:21:05,446 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:21:05,470 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:21:05,472 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:21:05,480 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:21:05,487 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:21:05,508 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:21:05,513 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:21:19,042 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:21:19,078 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:22:09,757 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:22:09,789 - INFO - Middleware: Interceptando resposta
+2024-11-05 17:23:17,099 - INFO - Middleware: Interceptando requisição
+2024-11-05 17:23:17,128 - INFO - Middleware: Interceptando resposta

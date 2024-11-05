@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from datetime import timedelta
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -23,7 +24,6 @@ REST = [
 ]
 
 INSTALLED_APPS = [
-    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -115,6 +115,17 @@ REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "NON_FIELD_ERRORS_KEY": "error",
     "PAGE_SIZE": 5
+}
+
+SIMPLE_JWT = {
+    # Duração do token de acesso
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=1440),
+    # Duração do token de atualização
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=30),
+    # Rotacionar tokens de atualização
+    'ROTATE_REFRESH_TOKENS': True,
+    # Colocar tokens de atualização na lista negra após a rotação
+    'BLACKLIST_AFTER_ROTATION': True,
 }
 
 LOGGING = {

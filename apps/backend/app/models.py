@@ -22,7 +22,7 @@ class Comment(BaseModel):
     star = models.CharField(max_length=1)
 
     def __str__(self):
-        return self.user
+        return self.username
 
 
 class CardCredit(BaseModel):

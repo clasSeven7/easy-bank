@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import api from '../../../api';
+import { fetchBlogs } from '../../../services/blogService';
 import './BlogList.css';
 
 interface Blog {
@@ -15,25 +15,18 @@ interface Blog {
 export function BlogList(): JSX.Element {
   const [blogs, setBlogs] = useState<Blog[]>([]);
 
-  const handleDelete = async (blogId: number) => {
-    try {
-      await api.delete(`/blogs/${blogId}/`);
-      const updatedBlogs = blogs.filter((blog) => blog.id !== blogId);
-      setBlogs(updatedBlogs);
-    } catch (error) {
-      console.error('Erro ao deletar blog:', error);
-    }
-  };
-
   useEffect(() => {
-    api
-      .get<Blog[]>(`/blogs/`)
-      .then((response) => {
-        setBlogs(response.data);
-      })
-      .catch((error) => {
-        console.error('Erro ao buscar blogs:', error);
-      });
+    const loadBlogs = async () => {
+      try {
+        const blogsData = await fetchBlogs();
+        setBlogs(blogsData.results);
+        console.log(blogsData);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    loadBlogs();
   }, []);
 
   return (

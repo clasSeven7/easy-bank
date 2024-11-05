@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { api } from '../../api';
+import { useNavigate } from 'react-router-dom';
+import { fetchBlogs } from '../../services/blogService';
 import './Blogs.css';
 
 interface Blog {
@@ -13,18 +14,38 @@ interface Blog {
 
 export function Blogs(): JSX.Element {
   const [blogs, setBlogs] = useState<Blog[]>([]);
+  const [error, setError] = useState<string | null>(null); // Estado para gerenciar erros
+  const navigate = useNavigate(); // Hook para navegação
+
   useEffect(() => {
-    api
-      .get('/blog')
-      .then((response) => setBlogs(response.data))
-      .catch((error) => console.error(error));
-  }, []);
+    const loadBlogs = async () => {
+      try {
+        const blogsData = await fetchBlogs();
+        setBlogs(blogsData.results);
+        console.log(blogsData);
+      } catch (error: any) {
+        console.error(error);
+        if (error.response && error.response.status === 401) {
+          // Se o erro for de não autorizado (token expirado)
+          setError('Sua sessão expirou. Por favor, faça login novamente.');
+          // Redireciona para a página de login
+          navigate('/login');
+        } else {
+          setError('Erro ao carregar blogs.'); // Outros erros
+        }
+      }
+    };
+
+    loadBlogs();
+  }, [navigate]);
 
   return (
     <section className="blogs" id="blogs">
       <div className="heading">
         nossos <span>blogs</span>
       </div>
+      {error && <div className="error-message">{error}</div>}{' '}
+      {/* Exibe a mensagem de erro se houver */}
       <div className="box-container">
         {blogs.map((blog) => (
           <div className="box" key={blog.id}>

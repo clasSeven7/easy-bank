@@ -1,48 +1,58 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { fetchComments } from '../../services/commentService';
 import './reviews.css';
+
+interface Comment {
+  id: number;
+  icon_user: string;
+  content: string;
+  username: string;
+  star: string;
+}
 
 export function Reviews(): JSX.Element {
   const [index, setIndex] = useState(0);
+  const [comments, setComments] = useState<Comment[]>([]);
+  const [error, setError] = useState<string | null>(null);
+  const navigate = useNavigate();
 
-  const slides = [
-    {
-      text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium commodi rerum voluptates molestiae quas quo quae sapiente consequuntur nisi odio.',
-      imgSrc: './src/assets/pic-1.png',
-      userName: 'jhon deo',
-      stars: 4.5,
-    },
-    {
-      text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium commodi rerum voluptates molestiae quas quo quae sapiente consequuntur nisi odio.',
-      imgSrc: './src/assets/pic-4.png',
-      userName: 'jhon deo',
-      stars: 5,
-    },
-    {
-      text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium commodi rerum voluptates molestiae quas quo quae sapiente consequuntur nisi odio.',
-      imgSrc: './src/assets/pic-2.png',
-      userName: 'jhon deo',
-      stars: 4,
-    },
-    {
-      text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium commodi rerum voluptates molestiae quas quo quae sapiente consequuntur nisi odio.',
-      imgSrc: './src/assets/pic-5.png',
-      userName: 'jhon deo',
-      stars: 4,
-    },
-  ];
+  useEffect(() => {
+    const loadComments = async () => {
+      try {
+        const commentsData = await fetchComments();
+        setComments(commentsData.results);
+        console.log(commentsData);
+      } catch (error: any) {
+        console.error(error);
+        if (error.response && error.response.status === 401) {
+          // Se o erro for de não autorizado (token expirado)
+          setError('Sua sessão expirou. Por favor, faça login novamente.');
+          // Redireciona para a página de login
+          navigate('/login');
+        } else {
+          setError('Erro ao carregar blogs.'); // Outros erros
+        }
+      }
+    };
+
+    loadComments();
+  }, [navigate]);
 
   const nextSlide = () => {
-    setIndex((prevIndex) => (prevIndex + 1) % slides.length);
+    setIndex((prevIndex) => (prevIndex + 1) % comments.length);
   };
 
   const prevSlide = () => {
-    setIndex((prevIndex) => (prevIndex - 1 + slides.length) % slides.length);
+    setIndex(
+      (prevIndex) => (prevIndex - 1 + comments.length) % comments.length
+    );
   };
   return (
     <div className="reviews">
       <section className="row">
         <div className="content">
-          <h3>o que os usuários dizem sobre nossos serviços</h3>
+          <h3>O que os usuários dizem sobre nossos serviços</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
             rerum quam facilis veniam asperiores maxime!
@@ -50,21 +60,21 @@ export function Reviews(): JSX.Element {
         </div>
         <div className="slider-container">
           <div className="slider">
-            {slides.map((slide, i) => (
+            {comments.map((comment, i) => (
               <div key={i} className={`slide ${i === index ? 'active' : ''}`}>
-                <p>{slide.text}</p>
+                <p>{comment.content}</p>
                 <div className="user">
-                  <img src={slide.imgSrc} />
+                  <img src={comment.icon_user} />
                   <div>
-                    <h3>{slide.userName}</h3>
+                    <h3>{comment.username}</h3>
                     <div className="stars">
                       {Array.from({ length: 5 }, (_, starIndex) => (
                         <i
                           key={starIndex}
                           className={`fas ${
-                            starIndex < Math.floor(slide.stars)
+                            starIndex < Math.floor(Number(comment.star))
                               ? 'fa-star'
-                              : starIndex < slide.stars
+                              : starIndex < Number(comment.star)
                               ? 'fa-star-half-stroke'
                               : 'far fa-star'
                           }`}

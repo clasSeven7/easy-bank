@@ -5,6 +5,7 @@ import {
   BrowserRouter as Router,
   Routes,
 } from 'react-router-dom';
+import { BlogCreate } from './components/Blogs/BlogCreate/BlogCreate';
 import { BlogEdit } from './components/Blogs/BlogEdit/BlogEdit';
 import { BlogList } from './components/Blogs/BlogList/BlogList';
 import { HomePage } from './components/HomePage/HomePage';
@@ -48,6 +49,12 @@ export function AppRouter(): JSX.Element {
         />
         <Route
           path="/blogs/create"
+          element={
+            authenticated ? <BlogCreate /> : <Navigate to="/login" replace />
+          }
+        />
+        <Route
+          path="/blogs/:id/edit"
           element={
             authenticated ? <BlogEdit /> : <Navigate to="/login" replace />
           }
