@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { fetchBlogs } from '../../../services/blogService';
+import { deleteBlog, fetchBlogs } from '../../../services/blogService';
 import './BlogList.css';
 
 interface Blog {
@@ -14,6 +14,16 @@ interface Blog {
 
 export function BlogList(): JSX.Element {
   const [blogs, setBlogs] = useState<Blog[]>([]);
+
+  const handleDelete = async (blogId: number) => {
+    try {
+      await deleteBlog(blogId);
+      const updatedBlogs = blogs.filter((blog) => blog.id !== blogId);
+      setBlogs(updatedBlogs);
+    } catch (error) {
+      console.error('Erro ao deletar Blog:', error);
+    }
+  };
 
   useEffect(() => {
     const loadBlogs = async () => {

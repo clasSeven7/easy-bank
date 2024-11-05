@@ -1,0 +1,12 @@
+/* src/styles/Readcomment.css */
+
+.read-comment-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.comment-image {
+  max-width: 100%;
+  margin-top: 20px;
+}
