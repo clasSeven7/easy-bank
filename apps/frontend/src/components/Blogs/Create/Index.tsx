@@ -1,20 +1,20 @@
 import { ChangeEvent, FormEvent, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import api from '../../../api';
-import './CommentCreate.css';
+import './styles.css';
 
-export function CommentCreate(): JSX.Element {
+export function BlogCreate(): JSX.Element {
   const navigate = useNavigate();
 
-  const [icon, setIcon] = useState<File | null>(null);
-  const [star, setStar] = useState<string>('');
-  const [username, setUsername] = useState<string>('');
+  const [image, setImage] = useState<File | null>(null);
+  const [data, setData] = useState<string>('');
+  const [user, setUser] = useState<string>('');
+  const [title, setTitle] = useState<string>('');
   const [content, setContent] = useState<string>('');
-  const [currentIcon, setCurrentIcon] = useState<string>('');
 
   const handleImageChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
-      setIcon(e.target.files[0]);
+      setImage(e.target.files[0]);
     }
   };
 
@@ -22,44 +22,51 @@ export function CommentCreate(): JSX.Element {
     e.preventDefault();
     try {
       const formData = new FormData();
-      formData.append('username', username);
+      formData.append('data', data);
+      formData.append('user', user);
+      formData.append('title', title);
       formData.append('content', content);
-      formData.append('star', star);
 
-      if (icon) {
-        formData.append('icon', icon);
+      if (image) {
+        formData.append('image', image);
       }
 
-      await api.post(`/comments/`, formData, {
+      await api.post(`/blogs/`, formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
       });
-      alert('Comentário criado com sucesso!');
-      navigate('/comments');
+      alert('Blog criado com sucesso!');
+      navigate('/blogs');
     } catch (error) {
-      console.error('Erro ao criar Comentário:', error);
-      alert('Erro ao criar Comentário. Tente novamente.');
+      console.error('Erro ao criar blog:', error);
+      alert('Erro ao criar blog. Tente novamente.');
     }
   };
 
   return (
-    <div className="create-comment-container">
-      <h1>Criar Novo Comentário</h1>
+    <div className="create-blog-container">
+      <h1>Criar Novo Blog</h1>
       <form onSubmit={handleSubmit}>
         <div>
           <input type="file" accept="image/*" onChange={handleImageChange} />
         </div>
         <input
-          type="text"
-          placeholder="Autor"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
+          type="date"
+          value={data}
+          onChange={(e) => setData(e.target.value)}
           required
         />
         <input
           type="text"
-          placeholder="Estrelas"
-          value={star}
-          onChange={(e) => setStar(e.target.value)}
+          placeholder="Autor"
+          value={user}
+          onChange={(e) => setUser(e.target.value)}
+          required
+        />
+        <input
+          type="text"
+          placeholder="Título"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
           required
         />
         <textarea
@@ -71,7 +78,7 @@ export function CommentCreate(): JSX.Element {
         <button className="save-button" type="submit">
           Criar
         </button>
-        <Link to="/comments">
+        <Link to="/blogs">
           <button type="button" className="back-button">
             Voltar para Listagem
           </button>

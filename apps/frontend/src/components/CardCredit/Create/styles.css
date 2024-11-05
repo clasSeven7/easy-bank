@@ -1,16 +1,16 @@
-/* src/styles/Editblog.css */
-.edit-blog-container {
+/* src/styles/Editcard.css */
+.edit-card-container {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
 
-.blog-image {
+.card-image {
   max-width: 500px;
   margin-bottom: 20px;
 }
 
-.blog-image img {
+.card-image img {
   max-width: 100%;
 }
 

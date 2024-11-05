@@ -5,18 +5,22 @@ import {
   BrowserRouter as Router,
   Routes,
 } from 'react-router-dom';
-import { BlogCreate } from './components/Blogs/BlogCreate/BlogCreate';
-import { BlogEdit } from './components/Blogs/BlogEdit/BlogEdit';
-import { BlogList } from './components/Blogs/BlogList/BlogList';
-import { BlogRead } from './components/Blogs/BlogRead/BlogRead';
-import { CardCreditEdit } from './components/CardCredit/Edit/Index';
-import { CardCreditList } from './components/CardCredit/List/Index';
 import { HomePage } from './components/HomePage/HomePage';
 import { Login } from './components/Login/Login';
-import { CommentCreate } from './components/Reviews/CommentCreate/CommentCreate';
-import { CommentEdit } from './components/Reviews/CommentEdit/CommentEdit';
-import { CommentList } from './components/Reviews/CommentList/CommentList';
-import { CommentRead } from './components/Reviews/CommentRead/CommentRead';
+
+import { BlogCreate } from './components/Blogs/Create/Index';
+import { BlogEdit } from './components/Blogs/Edit/Index';
+import { BlogList } from './components/Blogs/List/Index';
+import { BlogRead } from './components/Blogs/Read/Index';
+
+import { CardCreditCreate } from './components/CardCredit/Create/Index';
+import { CardCreditEdit } from './components/CardCredit/Edit/Index';
+import { CardCreditList } from './components/CardCredit/List/Index';
+
+import { CommentCreate } from './components/Reviews/Create/Index';
+import { CommentEdit } from './components/Reviews/Edit/Index';
+import { CommentList } from './components/Reviews/List/Index';
+import { CommentRead } from './components/Reviews/Read/Index';
 
 const isAuthenticated = () => !!localStorage.getItem('token');
 
@@ -101,6 +105,16 @@ export function AppRouter(): JSX.Element {
           element={
             authenticated ? (
               <CardCreditList />
+            ) : (
+              <Navigate to="/login" replace />
+            )
+          }
+        />
+        <Route
+          path="/cardcredits/create"
+          element={
+            authenticated ? (
+              <CardCreditCreate />
             ) : (
               <Navigate to="/login" replace />
             )

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import api from '../../../api';
 import { IBlog } from '../../types';
-import './BlogRead.css';
+import './styles.css';
 
 export function BlogRead(): JSX.Element {
   const { blogId } = useParams<{ blogId: string }>();

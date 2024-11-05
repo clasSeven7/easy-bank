@@ -2,7 +2,7 @@ import { ChangeEvent, FormEvent, useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import api from '../../../api';
 import { IComment } from '../../types';
-import './CommentEdit.css';
+import './styles.css';
 
 export function CommentEdit(): JSX.Element {
   const { id, commentId } = useParams<{ commentId: string }>();

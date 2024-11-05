@@ -1,8 +1,9 @@
 import { ChangeEvent, FormEvent, useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import api from '../../../api';
+import { HeaderBasic } from '../../HeaderBasic/HeaderBasic';
 import { IBlog } from '../../types';
-import './BlogEdit.css';
+import './styles.css';
 
 export function BlogEdit(): JSX.Element {
   const { id, blogId } = useParams<{ blogId: string }>();
@@ -74,54 +75,57 @@ export function BlogEdit(): JSX.Element {
   };
 
   return (
-    <div className="edit-blog-container">
-      <h1>{id ? 'Editar Blog' : 'Criar Novo Blog'}</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          {currentImage && (
-            <img
-              src={currentImage}
-              alt="Imagem do Blog"
-              className="blog-image"
-            />
-          )}
-          <input type="file" accept="image/*" onChange={handleImageChange} />
-        </div>
-        <input
-          type="date"
-          value={data}
-          onChange={(e) => setData(e.target.value)}
-          required // Adiciona required para validação
-        />
-        <input
-          type="text"
-          placeholder="Autor"
-          value={user}
-          onChange={(e) => setUser(e.target.value)}
-          required // Adiciona required para validação
-        />
-        <input
-          type="text"
-          placeholder="Título"
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
-          required // Adiciona required para validação
-        />
-        <textarea
-          placeholder="Conteúdo"
-          value={content}
-          onChange={(e) => setContent(e.target.value)}
-          required // Adiciona required para validação
-        />
-        <button className="save-button" type="submit">
-          {id ? 'Salvar' : 'Criar'}
-        </button>
-        <Link to="/blogs">
-          <button type="button" className="back-button">
-            Voltar para Listagem
+    <>
+      <HeaderBasic />
+      <div className="edit-blog-container">
+        <h1>{id ? 'Editar Blog' : 'Criar Novo Blog'}</h1>
+        <form onSubmit={handleSubmit}>
+          <div>
+            {currentImage && (
+              <img
+                src={currentImage}
+                alt="Imagem do Blog"
+                className="blog-image"
+              />
+            )}
+            <input type="file" accept="image/*" onChange={handleImageChange} />
+          </div>
+          <input
+            type="date"
+            value={data}
+            onChange={(e) => setData(e.target.value)}
+            required // Adiciona required para validação
+          />
+          <input
+            type="text"
+            placeholder="Autor"
+            value={user}
+            onChange={(e) => setUser(e.target.value)}
+            required // Adiciona required para validação
+          />
+          <input
+            type="text"
+            placeholder="Título"
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+            required // Adiciona required para validação
+          />
+          <textarea
+            placeholder="Conteúdo"
+            value={content}
+            onChange={(e) => setContent(e.target.value)}
+            required // Adiciona required para validação
+          />
+          <button className="save-button" type="submit">
+            {id ? 'Salvar' : 'Criar'}
           </button>
-        </Link>
-      </form>
-    </div>
+          <Link to="/blogs">
+            <button type="button" className="back-button">
+              Voltar para Listagem
+            </button>
+          </Link>
+        </form>
+      </div>
+    </>
   );
 }

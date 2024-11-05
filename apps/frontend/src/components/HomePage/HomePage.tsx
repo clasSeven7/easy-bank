@@ -9,7 +9,7 @@ import { Header } from '../Header/Header';
 import { Home } from '../Home/Home';
 import { Newsletter } from '../Newsletter/Newsletter';
 import { Partners } from '../Partners/Partners';
-import { Reviews } from '../Reviews/Reviews';
+import { Reviews } from '../Reviews/Index';
 import { Steps } from '../Steps/Steps';
 
 export function HomePage(): JSX.Element {

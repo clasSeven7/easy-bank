@@ -1,5 +1,58 @@
-/* src/components/blogList.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+  --main-color: #1b756b;
+  --black: #334;
+  --white: #fff;
+  --light-bg: #d7fce7;
+  --light-color: #666;
+  --light-white: rgba(255, 255, 255, 0.3);
+  --bg-color: #eee;
+
+  --box-shadow: 0 0.5 1rem rgba(0, 0, 0, 0.1);
+  --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: none;
+  transition: 0.2s linear;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 8rem;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+}
+
+section {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 3rem 2rem;
+}
+
 .blog-list-container {
+  display: block;
   max-width: 700px;
   margin: 0 auto;
   padding: 20px;
@@ -14,6 +67,10 @@
 .blog-list-container ul {
   list-style-type: none; /* Adiciona esta linha */
   padding: 0;
+}
+
+.header-blog-list {
+  display: block;
 }
 
 .blog-item {
@@ -68,17 +125,6 @@
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.header h1 {
-  margin: 0;
 }
 
 .create-button {
