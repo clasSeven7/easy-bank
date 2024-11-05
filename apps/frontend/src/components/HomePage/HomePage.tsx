@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { About } from '../About/About';
 import { Blogs } from '../Blogs/Blogs';
 import { CardCredit } from '../CardCredit/CardCredit';
@@ -11,7 +12,75 @@ import { Partners } from '../Partners/Partners';
 import { Reviews } from '../Reviews/Reviews';
 import { Steps } from '../Steps/Steps';
 
-export function HomePage() {
+export function HomePage(): JSX.Element {
+  // Ref para os elementos do DOM
+  const headerRef = React.useRef<HTMLHeadingElement>(null);
+  const navbarRef = React.useRef<HTMLElement>(null);
+  const menuBtnRef = React.useRef<HTMLDivElement>(null);
+  const slidesRef = React.useRef<NodeListOf<HTMLElement> | null>(null);
+  const indexRef = React.useRef<number>(0);
+
+  useEffect(() => {
+    const header = headerRef.current;
+    const navbar = navbarRef.current;
+    const menuBtn = menuBtnRef.current;
+
+    if (menuBtn && navbar) {
+      menuBtn.onclick = () => {
+        navbar.classList.toggle('fa-xmark');
+        navbar.classList.toggle('active');
+      };
+    }
+
+    const handleScroll = () => {
+      if (navbar) {
+        navbar.classList.remove('fa-xmark');
+        navbar.classList.remove('active');
+      }
+
+      if (header) {
+        if (window.scrollY > 0) {
+          header.classList.add('active');
+        } else {
+          header.classList.remove('active');
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Limpar o evento de scroll no unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  // Função para a próxima slide
+  const next = () => {
+    if (slidesRef.current) {
+      slidesRef.current[indexRef.current].classList.remove('active');
+      indexRef.current = (indexRef.current + 1) % slidesRef.current.length;
+      slidesRef.current[indexRef.current].classList.add('active');
+    }
+  };
+
+  // Função para a slide anterior
+  const prev = () => {
+    if (slidesRef.current) {
+      slidesRef.current[indexRef.current].classList.remove('active');
+      indexRef.current =
+        (indexRef.current - 1 + slidesRef.current.length) %
+        slidesRef.current.length;
+      slidesRef.current[indexRef.current].classList.add('active');
+    }
+  };
+
+  // Carregar os slides após a montagem do componente
+  useEffect(() => {
+    slidesRef.current = document.querySelectorAll(
+      '.reviews .row .slider-container .slide'
+    );
+  }, []);
   return (
     <>
       <Header />

@@ -1,7 +1,8 @@
 import { FormEvent, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import api from '../api';
-import '../styles/Login.css';
+import api from '../../api';
+import { HeaderBasic } from '../HeaderBasic/HeaderBasic';
+import './Login.css';
 
 interface LoginProps {
   setAuthenticated: React.Dispatch<React.SetStateAction<boolean>>;
@@ -28,25 +29,31 @@ export function Login({ setAuthenticated }: LoginProps): JSX.Element {
   };
 
   return (
-    <div className="login-container">
-      <h1>Login</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Usuário"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
-        <input
-          type="password"
-          placeholder="Senha"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button type="submit" className="login-button">
-          Entrar
-        </button>
-      </form>
-    </div>
+    <>
+      <HeaderBasic />
+      <div className="login-container">
+        <h1>
+          <i className="fa-solid fa-user"></i>
+          Login
+        </h1>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            placeholder="Usuário"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+          <input
+            type="password"
+            placeholder="Senha"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          <button type="submit" className="login-button">
+            Entrar
+          </button>
+        </form>
+      </div>
+    </>
   );
 }

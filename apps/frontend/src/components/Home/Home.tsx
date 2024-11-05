@@ -7,7 +7,7 @@ export function Home() {
         <div className="content">
           <h3>
             a melhor escolha para pagamento online com
-            <span>cartão de crédito</span>
+            <span> cartão de crédito</span>
           </h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque

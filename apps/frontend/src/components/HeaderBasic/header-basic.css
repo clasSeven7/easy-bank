@@ -1,0 +1,23 @@
+/* =================================== header-basic =============================== */
+
+.header-basic {
+  position: relative;
+  background: url('../../assets/review-bg.png') no-repeat center center/cover;
+}
+
+.header-basic .flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.header-basic .flex .logo {
+  font-size: 5rem;
+  color: var(--white);
+}
+
+.header-basic .flex .logo i {
+  margin-right: 0.5rem;
+  color: var(--white);
+}

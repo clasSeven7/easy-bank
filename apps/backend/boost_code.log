@@ -147,3 +147,23 @@ django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
 2024-11-04 17:44:55,020 - WARNING - Bad Request: /api/blog/
 2024-11-04 17:45:24,786 - INFO - Middleware: Interceptando requisição
 2024-11-04 17:45:24,805 - INFO - Middleware: Interceptando resposta
+2024-11-05 00:46:21,289 - INFO - Watching for file changes with StatReloader
+2024-11-05 00:46:29,395 - INFO - Middleware: Interceptando requisição
+2024-11-05 00:46:29,611 - INFO - Middleware: Interceptando resposta
+2024-11-05 00:46:29,611 - WARNING - Unauthorized: /api/token/
+2024-11-05 00:46:35,500 - INFO - Middleware: Interceptando requisição
+2024-11-05 00:46:35,734 - INFO - Middleware: Interceptando resposta
+2024-11-05 00:52:48,981 - INFO - Middleware: Interceptando requisição
+2024-11-05 00:52:49,197 - INFO - Middleware: Interceptando resposta
+2024-11-05 00:53:18,532 - INFO - Middleware: Interceptando requisição
+2024-11-05 00:53:18,744 - INFO - Middleware: Interceptando resposta
+2024-11-05 00:53:28,092 - INFO - Middleware: Interceptando requisição
+2024-11-05 00:53:28,313 - INFO - Middleware: Interceptando resposta
+2024-11-05 00:57:03,736 - INFO - Middleware: Interceptando requisição
+2024-11-05 00:57:03,953 - INFO - Middleware: Interceptando resposta
+2024-11-05 00:58:30,924 - INFO - Middleware: Interceptando requisição
+2024-11-05 00:58:31,141 - INFO - Middleware: Interceptando resposta
+2024-11-05 01:03:10,710 - INFO - Middleware: Interceptando requisição
+2024-11-05 01:03:10,927 - INFO - Middleware: Interceptando resposta
+2024-11-05 01:03:17,971 - INFO - Middleware: Interceptando requisição
+2024-11-05 01:03:18,198 - INFO - Middleware: Interceptando resposta

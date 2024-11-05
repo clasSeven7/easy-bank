@@ -6,7 +6,7 @@ import {
   Routes,
 } from 'react-router-dom';
 import { HomePage } from './components/HomePage/HomePage';
-import { Login } from './components/Login';
+import { Login } from './components/Login/Login';
 
 const isAuthenticated = () => !!localStorage.getItem('token');
 
