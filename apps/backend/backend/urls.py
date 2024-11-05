@@ -2,15 +2,12 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
-from app.api.router import blog_router, comment_router, cardcredit_router
-
+from app.api.router import urlpatterns
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/blogs/', include(blog_router.urls)),
-    path('api/comments/', include(comment_router.urls)),
-    path('api/cardcredits/', include(cardcredit_router.urls)),
+    path('api/', include(urlpatterns)),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

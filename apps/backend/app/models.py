@@ -5,7 +5,7 @@ from softdelete.models import BaseModel
 class Blog(BaseModel):
     image_blog = models.ImageField(
         upload_to='image_blog/', null=True, blank=True)
-    data = models.DateField()
+    data = models.DateField(auto_now_add=True)
     user = models.CharField(max_length=200)
     title = models.CharField(max_length=200)
     content = models.TextField()
